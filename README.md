@@ -21,13 +21,13 @@ const  App= () => {
      />
   );
 };
-
+```
 Props:
 Image props
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
-## License
+ ## License
 
 MIT
