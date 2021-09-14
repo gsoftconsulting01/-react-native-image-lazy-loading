@@ -74,11 +74,11 @@ const MarvelList = [
   { id: 23, name: 'Winter Solder' },
 ];
 
-const myKeyExtractor = (item) => {
+const myKeyExtractor = (item: any) => {
   return item.id;
 };
 
-const renderItem = ({ index }) => {
+const renderItem = () => {
   let source = {
     uri: 'https://ak.picdn.net/shutterstock/videos/13318067/thumb/1.jpg?ip=x480',
   };
@@ -97,7 +97,7 @@ const Marvel = () => {
     </SafeAreaView>
   );
 };
-const { width, height } = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 const styles = StyleSheet.create({
   separator: {
     height: 1,

@@ -1,5 +1,12 @@
 import React, { useRef, useState } from 'react';
-import { ActivityIndicator, Animated, ImageProps, StyleSheet, Text, View } from 'react-native';
+import {
+  ActivityIndicator,
+  Animated,
+  ImageProps,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 
 interface Props extends ImageProps {
   loaderColor?: string;
