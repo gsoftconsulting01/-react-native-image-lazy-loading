@@ -13,11 +13,17 @@ npm install react-native-image-lazy-loading
 ```js
 import ImageLazyLoading from "react-native-image-lazy-loading";
 
-// ...
 
-const result = await ImageLazyLoading.multiply(3, 7);
-```
+const  App= () => {
+  return (
+    <ImageLazyLoading
+     <Image source={source} style={styles.image}
+     />
+  );
+};
 
+Props:
+Image props
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.

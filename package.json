@@ -1,7 +1,7 @@
 {
   "name": "react-native-image-lazy-loading",
-  "version": "0.1.0",
-  "description": "react-native-image-lazy-loading",
+  "version": "1.0.3",
+  "description": "animated image loading for react native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -25,24 +25,22 @@
     "test": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "pods": "cd example && pod-install --quiet"
   },
   "keywords": [
     "react-native",
     "ios",
     "android"
   ],
-  "repository": "https://github.com/ahtisham-gsoftconsulting/react-native-image-lazy-loading.git/react-native-image-lazy-loading",
-  "author": "ahtisham <ahtisham@gsoftconsulting.com> (https://github.com/ahtisham-gsoftconsulting/react-native-image-lazy-loading.git)",
+  "repository": "https://github.com/Global-Software-Consulting/-react-native-image-lazy-loading.git",
+  "author": "ahtisham <ahtisham@gsoftconsulting.com> (https://github.com/Global-Software-Consulting/-react-native-image-lazy-loading.git)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ahtisham-gsoftconsulting/react-native-image-lazy-loading.git/react-native-image-lazy-loading/issues"
+    "url": "https://github.com/Global-Software-Consulting/-react-native-image-lazy-loading.git/issues"
   },
-  "homepage": "https://github.com/ahtisham-gsoftconsulting/react-native-image-lazy-loading.git/react-native-image-lazy-loading#readme",
+  "homepage": "https://github.com/Global-Software-Consulting/-react-native-image-lazy-loading.git#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -57,7 +55,7 @@
     "eslint": "^7.2.0",
     "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-prettier": "^3.1.3",
-    "husky": "^4.2.5",
+    "husky": "^4.3.8",
     "jest": "^26.0.1",
     "pod-install": "^0.1.0",
     "prettier": "^2.0.5",
